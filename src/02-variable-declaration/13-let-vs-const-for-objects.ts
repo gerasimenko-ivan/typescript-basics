@@ -1,5 +1,7 @@
 /**
  * let and const in objects declaration
+ *
+ * Skip it if you are not familiar with objects yet.
  */
 
 let userLet = {

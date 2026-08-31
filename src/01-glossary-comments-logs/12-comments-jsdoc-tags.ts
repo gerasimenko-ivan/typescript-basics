@@ -1,7 +1,8 @@
 /*
- * Comments - Params of JSDoc comments
+ * Comments - BONUS :)
+ * Params of JSDoc comments
  *
- * TODO:
+ * The IDE can understand tags such as @param, @returns, @deprecated, etc.
  */
 
 

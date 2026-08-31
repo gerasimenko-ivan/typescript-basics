@@ -1,4 +1,4 @@
-/**
+/*
  * GLOSSARY:
  *
  * JS -- is a shortcut for JavaScript

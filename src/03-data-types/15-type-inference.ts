@@ -4,7 +4,8 @@
  * it is when TypeScript knows the type automatically
  */
 
-let testerName = "Ivan"; // string. "Ivan" is a string in TS, so string type for variable "testerName" is inferred
+// string. "Peter" is a string in TS, so string type for variable "testerName" is inferred
+let testerName = "Peter";
 let yearsOfExperience = 10; // number
 let automationEngineer = true; // boolean
 

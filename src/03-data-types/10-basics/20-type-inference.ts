@@ -4,30 +4,27 @@
  * it is when TypeScript knows the type automatically
  */
 
-// string. "Peter" is a string in TS, so string type for variable "testerName" is inferred
-let testerName = "Peter";
-let yearsOfExperience = 10; // number
-let automationEngineer = true; // boolean
+// 'Peter' is a 'string' type in TS,
+// so 'string' type is inferred for variable 'testerName'
+let testerName = 'Peter';
+let yearsOfExperience = 10; // 'number' type is inferred
 
-console.log("Tester Name:", testerName);
-console.log("Years Of Experience:", yearsOfExperience);
-console.log("Automation Engineer:", automationEngineer);
+console.log('Tester Name:', testerName);
+console.log('Years Of Experience:', yearsOfExperience);
 
 
-// Error: "TS2322: Type number is not assignable to type string"
-// testerName = 1; // ❌ not allowed
-testerName = "Peter"; // ✅ allowed
-
-// Error: "TS2322: Type string is not assignable to type number"
-// yearsOfExperience = "10"; // ❌ not allowed
+// Reassigning values - correct types
+testerName = 'Josh'; // ✅ allowed
 yearsOfExperience = 11; // ✅ allowed
 
-// Error: "TS2322: Type string is not assignable to type boolean"
-// automationEngineer = "false"; // ❌ not allowed
-automationEngineer = false; // ✅ allowed
+
+// Reassigning values - incorrect types
+// Error: "TS2322: Type number is not assignable to type string" in code below
+// testerName = 1; // ❌ not allowed
+// Error: "TS2322: Type string is not assignable to type number" in code below
+// yearsOfExperience = "10"; // ❌ not allowed
 
 
-console.log('\nVariables are changed:');
-console.log("Tester Name:", testerName);
-console.log("Years Of Experience:", yearsOfExperience);
-console.log("Automation Engineer:", automationEngineer);
+console.log('\nNew values:');
+console.log('Tester Name:', testerName);
+console.log('Years Of Experience:', yearsOfExperience);

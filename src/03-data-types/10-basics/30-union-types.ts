@@ -3,13 +3,14 @@ export {}
  * Union types
  *
  * A union type allows a value to be one of several types
- * Symbol '|' is used to list different types for the variable
+ * Symbol '|' (vertical line or vertical bar) is used to list
+ * different types for the variable
  */
 
 let id: string | number;
 
 // number value assigned
-id = 123;
+id = 123456;
 console.log(`id = '${id}', type of id = '${typeof id}'`);
 
 // string value assigned

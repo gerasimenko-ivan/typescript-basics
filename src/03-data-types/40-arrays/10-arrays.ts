@@ -1,10 +1,11 @@
+export {}
 /*
  * Arrays
  *
- * An array is an ordered collection of values, usually of the same type.
- * These values are stored in one variable.
+ * An array is an ordered collection of elements, usually of the same type.
+ * These elements are stored in one variable.
  *
- * There are some specific tools to work with these values:
+ * There are some specific tools to work with these elements:
  *  - access an element by index (index starts from 0)
  *  - add and remove elements
  *  - find, replace, sort, filter, etc.
@@ -17,7 +18,7 @@ const cars: string[] = [];
 console.log('cars', cars);
 
 
-// TypeScript infers the type as string[] from the values in the array (string values).
+// TypeScript infers the type as string[] from the elements in the array (string values).
 const cars2 = ['Toyota', 'Ford', 'Ferrari'];
 
 console.log('cars2', cars2);       // whole array

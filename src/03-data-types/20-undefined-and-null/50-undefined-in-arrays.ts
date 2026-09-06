@@ -27,6 +27,6 @@ console.log('lastElement', lastElement); // lastElement 'undefined'
 
 /*
  * See also:
- * - src/03-data-types/40-arrays/11-array-add-remove-element.ts
+ * - src/03-data-types/40-arrays/12-array-add-remove-element.ts
  *    └──  Array.prototype.pop()
  */

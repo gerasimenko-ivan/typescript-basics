@@ -31,6 +31,6 @@ console.log('cars', cars);
 
 /*
  * See also:
- * - src/03-data-types/20-undefined-and-null/50-undefined-in-arrays.ts
+ * - src/03-data-types/20-undefined-and-null/50-undefined-when-array-empty.ts
  *    └── undefined returned by pop()
  */

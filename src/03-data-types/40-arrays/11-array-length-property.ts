@@ -18,5 +18,5 @@ console.log(`cars.length = ${cars.length}`); // length 3
 /*
  * .pop() - method
  * See also:
- * - src/03-data-types/40-arrays/21-array-add-remove-element.ts
+ * - src/03-data-types/40-arrays/22-array-pop-remove-element.ts
  */

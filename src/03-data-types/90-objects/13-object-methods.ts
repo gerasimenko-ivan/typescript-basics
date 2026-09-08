@@ -40,3 +40,10 @@ const country2: Country = {
         this.population += 1000 * n;
     }
 }
+
+// calling methods
+country1.increasePopulationBy(300);
+console.log('country1.population', country1.population);
+
+country2.increasePopulationBy(300);
+console.log('country2.population', country2.population);

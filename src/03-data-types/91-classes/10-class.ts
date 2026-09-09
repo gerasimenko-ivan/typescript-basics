@@ -6,7 +6,7 @@ export {}
  * a particular structure and behaviour.
  *
  * Class is similar to Object in some ways:
- *  - it can have properties, methods
+ *  - it can have properties and methods
  *  - its name can be used as a type
  *
  * A class also provides additional features:
@@ -14,6 +14,7 @@ export {}
  *  - it can have constructors
  *  - it can use inheritance
  *  - it can define access modifiers such as private and protected
+ *  - it can have static properties and methods
  *  - ...
  */
 

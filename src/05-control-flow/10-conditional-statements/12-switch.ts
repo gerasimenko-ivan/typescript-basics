@@ -23,7 +23,7 @@ function whichLetter(value: string) {
      * This is called fall-through.
      *
      * 'break' can be used to stop execution:
-     *   src/05-control-flow/30-jump-statements/10-break.ts
+     *   src/05-control-flow/30-jump-statements/10-break-switch.ts
      */
     switch (value) {
         case 'A':

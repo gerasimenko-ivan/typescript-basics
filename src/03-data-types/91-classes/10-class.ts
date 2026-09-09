@@ -15,6 +15,7 @@ export {}
  *  - it can use inheritance
  *  - it can define access modifiers such as private and protected
  *  - it can have static properties and methods
+ *  - it can be abstract
  *  - ...
  */
 

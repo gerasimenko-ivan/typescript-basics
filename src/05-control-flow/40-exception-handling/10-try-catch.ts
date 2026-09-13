@@ -11,14 +11,14 @@ export {}
  */
 
 
-function printLine(line: string) {
+function printLine(line: string): void {
     if (line.length === 0) {
         throw new Error('Line is empty');
     }
     console.log(line);
 }
 
-function tryPrintLine(line: string) {
+function tryPrintLine(line: string): void {
     try {
         printLine(line);
     } catch (error) {

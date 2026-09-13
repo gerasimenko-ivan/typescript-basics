@@ -9,7 +9,8 @@ export {}
  * and a body that executes during each iteration.
  *
  * The initialization usually creates a loop variable.
- * The update usually increments or decrements it.
+ * The condition is checked before each iteration.
+ * The update usually increments or decrements it after body execution.
  */
 
 for (let i = 0; i < 5; i++) {

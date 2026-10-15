@@ -4,6 +4,7 @@ export {}
  *
  * An object is a collection of related data represented
  * by properties and their values.
+ * Use objects to group related values.
  */
 
 

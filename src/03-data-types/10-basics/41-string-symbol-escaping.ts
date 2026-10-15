@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * Escape Symbols in Strings
  *

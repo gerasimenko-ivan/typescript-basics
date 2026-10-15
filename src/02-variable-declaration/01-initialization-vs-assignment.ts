@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * Initialization and Assignment difference
  *

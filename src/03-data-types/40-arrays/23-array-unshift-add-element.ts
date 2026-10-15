@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * Array - Add Element(s)
  *

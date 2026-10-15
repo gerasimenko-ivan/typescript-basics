@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * Array - Update an element
  */

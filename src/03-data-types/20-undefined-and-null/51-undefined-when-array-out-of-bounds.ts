@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * 'undefined' is returned when we are trying to access an element
  * that does not exist

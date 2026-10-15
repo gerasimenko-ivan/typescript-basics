@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * Undefined and Null in condition
  *

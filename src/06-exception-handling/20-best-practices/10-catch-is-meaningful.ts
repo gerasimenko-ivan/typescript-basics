@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * Good Practice: Don't Ignore Errors
  *

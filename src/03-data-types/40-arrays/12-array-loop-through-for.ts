@@ -1,4 +1,4 @@
-export {}
+export {};
 /*
  * Array - Loop Through Elements
  */

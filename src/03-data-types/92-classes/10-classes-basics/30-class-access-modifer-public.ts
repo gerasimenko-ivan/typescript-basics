@@ -10,6 +10,7 @@ class Car {
     make: string = '';         // implicitly public property
     public model: string = ''; // explicitly public property
 
+    // implicitly public method
     intro(): void {
         // Access the properties from within the class using 'this'
         console.log(`The car is a(an) ${this.make} ${this.model}.`);

@@ -12,24 +12,24 @@ interface Car {
     model: string;
 }
 
-interface ElectricCar {
+interface ElectricCarFeatures {
     batteryName: string;
-    batteryCapacity: number;
+    batteryCapacityKwh: number;
 }
 
-interface SportsCar {
+interface SportsCarFeatures {
     hasFrontSplitter: boolean;
     hasSpoiler: boolean;
 }
 
-interface ElectricSportsCar extends Car, ElectricCar, SportsCar {}
+interface ElectricSportsCar extends Car, ElectricCarFeatures, SportsCarFeatures {}
 
 // An ElectricSportsCar must satisfy all three interfaces.
 const car: ElectricSportsCar = {
     make: 'Toyota',
     model: 'Corolla',
     batteryName: 'LN2 AGM',
-    batteryCapacity: 0.9,
+    batteryCapacityKwh: 0.9,
     hasFrontSplitter: false,
     hasSpoiler: true,
 }

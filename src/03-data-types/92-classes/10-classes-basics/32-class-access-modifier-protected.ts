@@ -11,7 +11,7 @@ class Animal {
 
     constructor(name: string) { this.name = name; }
 
-    protected eat() {
+    protected eat(): void {
         console.log(`${this.name} is eating`);
     }
 }

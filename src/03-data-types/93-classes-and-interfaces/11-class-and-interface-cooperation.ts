@@ -40,11 +40,11 @@ const catLeo = new Cat('Leo');
  * TypeScript ensures that the argument has all properties
  * and methods required by the Animal interface.
  *
- * This allows us to safely call makeNoise() on both
- * Dog and Cat instances.
- */
+ * This allows us to safely call makeNoise(), access
+ * Animal properties on both Dog and Cat instances. */
 function letThemMakeNoise(animal: Animal): void {
-    animal.makeNoise();
+    animal.makeNoise();       // ✅ Allowed
+    console.log(animal.name); // ✅ Allowed
 }
 
 letThemMakeNoise(dogMax);

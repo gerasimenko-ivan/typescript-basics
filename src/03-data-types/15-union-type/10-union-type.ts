@@ -16,3 +16,6 @@ console.log(`id = '${id}', type of id = '${typeof id}'`);
 // string value assigned
 id = 'G13_45b';
 console.log(`id = '${id}', type of id = '${typeof id}'`);
+
+// Only string or number types are valid for id variable
+// id = true; // ❌ not allowed (boolean type)

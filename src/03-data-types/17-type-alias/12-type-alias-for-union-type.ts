@@ -8,7 +8,7 @@ export {};
  * instead of repeating the union type explicitly.
  *
  * More about Union Types:
- *   src/03-data-types/15-union-type
+ *   src/03-data-types/51-union-type
  */
 
 type UserId = string | null;

@@ -29,6 +29,11 @@ const user4: User = {
     id: 4444,
 }
 
+console.log(user1);
+console.log(user2);
+console.log(user3);
+console.log(user4);
+
 /*
  * A type alias allows us to define an object structure once
  * and reuse it in multiple places.

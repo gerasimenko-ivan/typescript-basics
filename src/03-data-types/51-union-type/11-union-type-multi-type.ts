@@ -23,7 +23,16 @@ console.log(variable3);
 
 // Different values assigned to the same variable
 variable3 = 'Hello World!';
+console.log(variable3);
+
 variable3 = 100;
+console.log(variable3);
+
 variable3 = true;
+console.log(variable3);
+
 variable3 = null;
+console.log(variable3);
+
 variable3 = undefined;
+console.log(variable3);

@@ -16,10 +16,21 @@ enum Status {
 
 let status: Status = Status.Pending;
 
-console.log(status); // 0
+console.log(status);         // 0
+console.log(Status.Success); // 1
+console.log(Status.Error);   // 2
 
-status = Status.Success;
-console.log(status); // 1
+/*
+ * Practical Example: HTTP Status Codes
+ *
+ * Numeric enum members can also be assigned explicit values.
+ */
+enum HttpStatus {
+    Success = 200,
+    ClientError = 404,
+    ServerError = 500,
+}
 
-status = Status.Error;
-console.log(status); // 2
+console.log(HttpStatus.Success);
+console.log(HttpStatus.ClientError);
+console.log(HttpStatus.ServerError);

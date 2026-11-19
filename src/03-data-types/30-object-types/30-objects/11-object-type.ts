@@ -12,6 +12,13 @@ type Country = {
     population: number,
 }
 
+/*
+ * We can use the Country type for multiple objects.
+ *
+ * TypeScript checks that each object has the required
+ * properties with the correct types.
+ */
+
 // country1 is an object of type Country
 const country1: Country = {
     name: 'Australia',
@@ -26,9 +33,5 @@ const country2: Country = {
     population: 5000000,
 }
 
-/*
- * We can use the Country type for multiple objects.
- *
- * TypeScript checks that each object has the required
- * properties with the correct types.
- */
+console.log(country1);
+console.log(country2);

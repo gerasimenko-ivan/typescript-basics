@@ -48,6 +48,13 @@ console.log(optimus);
 console.log(truck);
 
 /*
- * Interfaces cannot be used to define a union of types:
+ * Interfaces cannot be used to directly define a union of types:
  */
 // interface TransformerNew = Robot | Vehicle; // ❌ not allowed
+
+/*
+ * However, interface properties can have union types:
+ */
+interface TransformerNew {
+    robovehicle: Robot | Vehicle;
+}

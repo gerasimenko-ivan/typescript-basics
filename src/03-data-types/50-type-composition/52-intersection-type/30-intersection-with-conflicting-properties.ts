@@ -27,3 +27,11 @@ type PersonProduct = Person & Product;
 // const item: PersonProduct = {
 //     id: 123, // ❌ not allowed
 // };
+
+/*
+ * PersonProduct can still be used as a function parameter type.
+ * However, no ordinary object can satisfy this type.
+ */
+function printPersonProduct(param: PersonProduct): void {
+    console.log(param);
+}

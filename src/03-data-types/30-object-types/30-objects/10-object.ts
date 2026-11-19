@@ -7,13 +7,6 @@ export {};
  * Use objects to group related values.
  */
 
-
-const country = {
-    name: 'Australia',
-    capital: 'Canberra',
-    population: 26000000,
-}
-
 /*
  * country - is an object with 3 properties:
  * name, capital, and population
@@ -25,3 +18,10 @@ const country = {
  *   population: number,
  * }
  */
+const country = {
+    name: 'Australia',
+    capital: 'Canberra',
+    population: 26000000,
+}
+
+console.log(country);

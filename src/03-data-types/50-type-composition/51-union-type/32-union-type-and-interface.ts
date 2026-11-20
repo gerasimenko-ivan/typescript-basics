@@ -45,3 +45,12 @@ console.log(truck);
 interface TransformerNew {
     robovehicle: Robot | Vehicle;
 }
+
+const transformerNew: TransformerNew = {
+    robovehicle: {
+        name: 'Optimus Prime',
+        processor: 'Cybertronian',
+    }
+}
+
+console.log(transformerNew);

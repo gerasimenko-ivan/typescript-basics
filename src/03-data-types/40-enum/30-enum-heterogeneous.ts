@@ -27,3 +27,5 @@ enum StatusNew {
     Maybe = 'Maybe',
     // Yes, // ❌ Not allowed. Error: Enum member must have initializer.
 }
+
+console.log(StatusNew);

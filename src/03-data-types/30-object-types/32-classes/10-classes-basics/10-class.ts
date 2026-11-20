@@ -30,6 +30,9 @@ const country1: Country = { name: 'Australia', capital: 'Canberra' };
 // Creating an instance of class Country -- only possible with class
 const country2: Country = new Country();
 
+console.log(country1);
+console.log(country2);
+
 /*
  * The advantages of creating an object with 'new Country()'
  * will become clearer when we introduce the class constructor.

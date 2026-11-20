@@ -23,6 +23,9 @@ const country2: Country = {
     // 'population' is optional, so it can be omitted
 }
 
+console.log(country1);
+console.log(country2);
+
 /*
  * Code below causes an error:
  *
@@ -30,8 +33,6 @@ const country2: Country = {
  * but required in type Country'
  *
  * 'name' is a required property, so it must be present in the object. */
-/*
-const country3: Country = {
-    population: 123456,
-}
- */
+// const country3: Country = {
+//     population: 123456,
+// }

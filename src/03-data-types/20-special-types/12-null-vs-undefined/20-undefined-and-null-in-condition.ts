@@ -2,36 +2,25 @@ export {};
 /*
  * Undefined and Null in condition
  *
- * 'undefined' and 'null' are falsy values.
+ * undefined and null are falsy values.
  *
- * When they are used as an 'if' condition,
- * the 'else' branch is executed.
+ * When they are used as an if condition,
+ * the else branch is executed.
  *
  * This can be useful when we want to execute code
- * only when a value is truthy.
+ * only when a value is truthy (not null or undefined).
  */
 
 
-let message: string | undefined | null = 'Hello World';
-
-if (message) {
-    console.log(message); // executed
-} else {
-    console.log('false branch was NOT executed'); // NOT executed
+function logMessage(message: string | undefined | null): void {
+    if (message) {
+        console.log(`TRUE  branch was executed. MESSAGE: '${message}'`);
+    } else {
+        console.log(`FALSE branch was executed. MESSAGE: '${message}'`);
+    }
 }
 
-// undefined
-message = undefined;
-if (message) {
-    console.log(message);
-} else {
-    console.log(`false branch was executed. message='${message}'`); // executed
-}
-
-// null
-message = null;
-if (message) {
-    console.log(message);
-} else {
-    console.log(`false branch was executed. message='${message}'`); // executed
-}
+logMessage('Hello World'); // non-empty string is truthy
+logMessage(''); // empty string is falsy
+logMessage(undefined); // undefined is falsy
+logMessage(null);      // null is falsy
